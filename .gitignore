@@ -1,2 +1,4 @@
+index.php
+.DS_Store
 uploads/
-themes/marty-oconnor-child-theme/node_modules/
+/themes/marty-oconnor-child-theme/node_modules/
