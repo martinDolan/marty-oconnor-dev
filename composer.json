@@ -1,0 +1,16 @@
+{
+    "name": "martinoconnor/wp-content",
+    "description": "Marty's Child Theme",
+    "autoload": {
+        "psr-4": {
+            "Martinoconnor\\WpContent\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "martinDolan",
+            "email": "martyopants@gmail.com"
+        }
+    ],
+    "require": {}
+}
