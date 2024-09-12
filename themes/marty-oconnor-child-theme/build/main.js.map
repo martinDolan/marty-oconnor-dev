@@ -1,0 +1,1 @@
+{"version":3,"file":"main.js","mappings":";;;;;AAAA;AACAA,OAAO,CAACC,GAAG,CAAC,uCAAuC,CAAC,C","sources":["webpack://queen-bees-child/./src/main.js"],"sourcesContent":["// src/main.js\nconsole.log('Queen Bees Child Theme Scripts Loaded');\n"],"names":["console","log"],"sourceRoot":""}

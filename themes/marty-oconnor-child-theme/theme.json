@@ -1,0 +1,110 @@
+{
+    "version": 2,
+    "settings": {
+        "color": {
+            "palette": [
+                {
+                    "name": "QB Dark Brown",
+                    "slug": "qb-dark-brown",
+                    "color": "#2E1C00"
+                },
+                {
+                    "name": "QB Light Yellow",
+                    "slug": "qb-light-yellow",
+                    "color": "#FDF2C5"
+                }
+            ],
+            "gradients": [
+				{
+					"slug": "gradient-1",
+					"gradient": "linear-gradient(to bottom, #f6decd 0%, #dbab88 100%)",
+					"name": "Vertical linen to beige"
+				},
+				{
+					"slug": "gradient-2",
+					"gradient": "linear-gradient(to bottom, #A4A4A4 0%, #dbab88 100%)",
+					"name": "Vertical taupe to beige"
+				},
+				{
+					"slug": "gradient-3",
+					"gradient": "linear-gradient(to bottom, #353535 0%, #dbab88 100%)",
+					"name": "Vertical sable to beige"
+				},
+				{
+					"slug": "gradient-4",
+					"gradient": "linear-gradient(to bottom, #111111 0%, #dbab88 100%)",
+					"name": "Vertical ebony to beige"
+				},
+				{
+					"slug": "gradient-5",
+					"gradient": "linear-gradient(to bottom, #353535 0%, #A4A4A4 100%)",
+					"name": "Vertical sable to beige"
+				},
+				{
+					"slug": "gradient-6",
+					"gradient": "linear-gradient(to bottom, #111111 0%, #353535 100%)",
+					"name": "Vertical ebony to sable"
+				},
+				{
+					"slug": "gradient-7",
+					"gradient": "linear-gradient(to bottom, #dbab88 50%, #f6decd 50%)",
+					"name": "Vertical hard beige to linen"
+				},
+				{
+					"slug": "gradient-8",
+					"gradient": "linear-gradient(to bottom, #A4A4A4 50%, #dbab88 50%)",
+					"name": "Vertical hard taupe to beige"
+				},
+				{
+					"slug": "gradient-9",
+					"gradient": "linear-gradient(to bottom, #353535 50%, #dbab88 50%)",
+					"name": "Vertical hard sable to beige"
+				},
+				{
+					"slug": "gradient-10",
+					"gradient": "linear-gradient(to bottom, #111111 50%, #dbab88 50%)",
+					"name": "Vertical hard ebony to beige"
+				},
+				{
+					"slug": "gradient-11",
+					"gradient": "linear-gradient(to bottom, #353535 50%, #A4A4A4 50%)",
+					"name": "Vertical hard sable to taupe"
+				},
+				{
+					"slug": "gradient-12",
+					"gradient": "linear-gradient(to bottom, #111111 50%, #353535 50%)",
+					"name": "Vertical hard ebony to sable"
+				}
+			],
+            "custom": true
+        },
+        "typography": {
+            "fontSizes": [
+                {
+                    "name": "Small",
+                    "slug": "small",
+                    "size": "14px"
+                },
+                {
+                    "name": "Normal",
+                    "slug": "normal",
+                    "size": "16px"
+                },
+                {
+                    "name": "Large",
+                    "slug": "large",
+                    "size": "36px"
+                }
+            ],
+            "customFontSize": false
+        }
+    },
+    "styles": {
+        "color": {
+            "text": "var(--wp--preset--color--primary)"
+        },
+        "typography": {
+            "fontSize": "var(--wp--preset--font-size--normal)"
+        }
+    }
+}

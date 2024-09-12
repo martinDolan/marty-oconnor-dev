@@ -1,16 +1,46 @@
 {
-    "name": "martinoconnor/wp-content",
-    "description": "Marty's Child Theme",
-    "autoload": {
-        "psr-4": {
-            "Martinoconnor\\WpContent\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "martinDolan",
-            "email": "martyopants@gmail.com"
-        }
-    ],
-    "require": {}
+  "name": "martinoconnor/wp-content",
+  "description": "Marty's Child Theme",
+  "autoload": {
+    "psr-4": {
+      "Martinoconnor\\WpContent\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "martinDolan",
+      "email": "martyopants@gmail.com"
+    }
+  ],
+  "require": {
+    "wpackagist-plugin/custom-post-type-ui": "1.17.1"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org",
+      "only": [
+        "wpackagist-plugin/*",
+        "wpackagist-theme/*"
+      ]
+    }
+  ],
+  "extra": {
+    "installer-paths": {
+      "plugins/{$name}/": [
+        "type:wordpress-plugin"
+      ],
+      "mu-plugins/{$name}/": [
+        "type:wordpress-muplugin"
+      ],
+      "themes/{$name}/": [
+        "type:wordpress-theme"
+      ]
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "composer/installers": true
+    }
+  }
 }
