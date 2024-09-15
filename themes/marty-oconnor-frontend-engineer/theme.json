@@ -117,12 +117,12 @@
 					"slug": "contrast"
 				},
 				{
-					"color": "#636363",
+					"color": "rgb(110 112 99)",
 					"name": "Contrast / Two",
 					"slug": "contrast-2"
 				},
 				{
-					"color": "#A4A4A4",
+					"color": "rgb(42 42 39)",
 					"name": "Contrast / Three",
 					"slug": "contrast-3"
 				},
@@ -236,6 +236,32 @@
 					"fontFamily": "Lato Light",
 					"name": "Lato Light",
 					"slug": "lato-light"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Lato Regular",
+							"fontStyle": "Regular",
+							"fontWeight": "300",
+							"src": ["file:./assets/fonts/Lato-Regular.woff2"]
+						}
+					],
+					"fontFamily": "Lato Regular",
+					"name": "Lato Regular",
+					"slug": "lato-regular"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Lato Black",
+							"fontStyle": "Black",
+							"fontWeight": "300",
+							"src": ["file:./assets/fonts/Lato-Black.woff2"]
+						}
+					],
+					"fontFamily": "Lato Black",
+					"name": "Lato Black",
+					"slug": "lato-black"
 				},
 				{
 					"fontFamily": "-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif",
