@@ -1,6 +1,10 @@
 {
-    "version": 2,
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
     "settings": {
+		"custom": {
+			"aCustomThing": "min(4rem, 5vw)"
+		},
         "color": {
             "palette": [
                 {
@@ -97,7 +101,14 @@
                 }
             ],
             "customFontSize": false
-        }
+        },
+		"layout": {
+			"contentSize": "1024px",
+			"wideSize": "1280px"
+		},
+		"blocks": {
+			s
+		}
     },
     "styles": {
         "color": {
