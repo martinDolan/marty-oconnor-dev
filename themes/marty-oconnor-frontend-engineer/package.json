@@ -1,0 +1,19 @@
+{
+  "name": "queen-bees-child",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "wp-scripts build src/js/main.js --output-path=build/js && sass src/scss/style.scss build/css/style.css --style=compressed",
+    "start": "concurrently \"wp-scripts start src/js/main.js --output-path=build/js\" \"sass --watch src/scss/style.scss:build/css/style.css\"",
+    "lint": "eslint 'src/**/*.js'",
+    "format": "prettier --write 'src/**/*.{js,scss}'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@wordpress/scripts": "^28.2.0",
+    "concurrently": "^8.2.2"
+  }
+}

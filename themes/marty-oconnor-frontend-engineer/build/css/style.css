@@ -1,0 +1,25 @@
+.career-timeline.wp-block-group {
+  padding-top: var(--wp--preset--spacing--60);
+  padding-bottom: var(--wp--preset--spacing--60);
+}
+.career-timeline.wp-block-group .callout {
+  color: var(--wp--preset--color--contrast);
+  background-color: var(--wp--preset--color--base);
+  position: absolute;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  text-transform: uppercase;
+  top: -0.75rem;
+  left: 0;
+  right: 0;
+  width: fit-content;
+}
+.career-timeline.wp-block-group .wp-block-details {
+  border-bottom: 1px solid white;
+}
+.career-timeline.wp-block-group summary {
+  font-family: var(--wp--preset--font-family--ibm-plex-sans-medium);
+  font-weight: 300;
+}
+
+/*# sourceMappingURL=style.css.map */
