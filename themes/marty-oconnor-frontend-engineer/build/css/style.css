@@ -18,7 +18,7 @@
   border-bottom: 1px solid white;
 }
 .career-timeline.wp-block-group summary {
-  font-family: var(--wp--preset--font-family--ibm-plex-sans-medium);
+  font-family: var(--wp--preset--font-family--ibm-plex-serif-regular);
   font-weight: 300;
 }
 

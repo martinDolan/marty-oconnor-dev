@@ -201,28 +201,41 @@
 				{
 					"fontFace": [
 						{
-							"fontFamily": "IBM Plex Sans Regular",
+							"fontFamily": "IBM Plex Serif Regular",
 							"fontStyle": "regular",
 							"fontWeight": "400",
-							"src": ["file:./assets/fonts/IBMPlexSans-Regular.woff2"]
+							"src": ["file:./assets/fonts/IBMPlexSerif-Regular.woff2"]
 						}
 					],
-					"fontFamily": "IBM Plex Sans Regular",
-					"name": "IBM Plex Sans Regular",
-					"slug": "ibm-plex-sans-regular"
+					"fontFamily": "IBM Plex Serif Regular",
+					"name": "IBM Plex Serif Regular",
+					"slug": "ibm-plex-serif-regular"
 				},
 				{
 					"fontFace": [
 						{
-							"fontFamily": "IBM Plex Sans Medium",
+							"fontFamily": "IBM Plex Serif Medium",
 							"fontStyle": "medium",
 							"fontWeight": "500",
-							"src": ["file:./assets/fonts/IBMPlexSans-Medium.woff2"]
+							"src": ["file:./assets/fonts/IBMPlexSerif-Medium.woff2"]
 						}
 					],
-					"fontFamily": "IBM Plex Sans Medium",
-					"name": "IBM Plex Sans Medium",
-					"slug": "ibm-plex-sans-medium"
+					"fontFamily": "IBM Plex Serif Medium",
+					"name": "IBM Plex Serif Medium",
+					"slug": "ibm-plex-serif-medium"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Lato Light",
+							"fontStyle": "light",
+							"fontWeight": "300",
+							"src": ["file:./assets/fonts/Lato-Light.woff2"]
+						}
+					],
+					"fontFamily": "Lato Light",
+					"name": "Lato Light",
+					"slug": "lato-light"
 				},
 				{
 					"fontFamily": "-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif",
