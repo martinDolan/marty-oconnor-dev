@@ -1,11 +1,13 @@
 .career-timeline {
+    margin-top: 0;
     &.wp-block-group{
         padding-top: var(--wp--preset--spacing--60);
         padding-bottom: var(--wp--preset--spacing--60);
     
         .callout {
-            color: var(--wp--preset--color--contrast);
+            color: var(--wp--preset--color--contrast-3);
             background-color: var(--wp--preset--color--base);
+            font-family: var(--wp--preset--font-family--lato-black);
             position: absolute;
             padding-left: .75rem;
             padding-right: .75rem;

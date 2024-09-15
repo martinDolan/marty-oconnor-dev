@@ -1,0 +1,33 @@
+// * {
+//     outline: 1px solid orange;
+// }
+.header-container {
+    color: var(--wp--preset--color--contrast-2);
+    .wp-block-navigation__responsive-container-open {
+
+            svg {
+                color: var(--wp--preset--color--contrast-3);
+            }
+        
+    }
+    h1 {
+        color: var(--wp--preset--color--contrast-2);
+    }
+    .header-container-inner {
+        display: flex;
+        align-items: center;
+
+        h1,
+        p {
+            font-size: 1rem;
+        }
+
+        h1 {
+            margin-right: 0.625rem;
+        }
+
+        .header-subhead {
+            margin: 0;
+        }
+    }
+}

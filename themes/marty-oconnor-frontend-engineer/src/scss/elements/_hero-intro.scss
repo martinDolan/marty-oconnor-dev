@@ -1,0 +1,13 @@
+.hero-intro {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background: linear-gradient(180deg, rgb(214 94 94 / 0), #f4d47c5c);
+    h2 {
+        max-width: 730px;
+        margin: 0 auto;
+        font-family: var(--wp--preset--font-family--lato-light);
+        font-size: 2.25rem;
+        line-height: 1.625;
+        color: var(--wp--preset--color--contrast-3);
+    }
+}
