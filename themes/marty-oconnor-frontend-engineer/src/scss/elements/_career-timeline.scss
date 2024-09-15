@@ -21,15 +21,29 @@
     
         .wp-block-details {
             border-bottom: 1px solid white;
-        }
+            padding-bottom: 40px;
 
-        details {
-            font-size: 1.875rem;
+            &[open] {
+                summary,
+                p {
+                    color: rgb(245 233 196);
+                }
+            }
+
+            p {
+                font-family: var(--wp--preset--font-family--lato-regular);
+                font-size: 1.25rem;
+                line-height: 1.625;
+            }
         }
 
         summary {
             font-family: var(--wp--preset--font-family--ibm-plex-serif-regular);
             font-weight: 300;
+
+            &:focus {
+                outline: none;
+            }
         }
     } 
 }
