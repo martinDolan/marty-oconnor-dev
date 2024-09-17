@@ -41,6 +41,11 @@
             font-family: var(--wp--preset--font-family--ibm-plex-serif-regular);
             font-weight: 300;
 
+            &::marker {
+                font-size: 14px;
+            }
+
+
             &:focus {
                 outline: none;
             }
