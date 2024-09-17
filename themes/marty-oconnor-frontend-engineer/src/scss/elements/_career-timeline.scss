@@ -1,5 +1,6 @@
 .career-timeline {
     margin-top: 0;
+
     &.wp-block-group{
         background-color: var(--wp--preset--color--contrast-3);
         padding-top: var(--wp--preset--spacing--60);
@@ -40,6 +41,11 @@
         summary {
             font-family: var(--wp--preset--font-family--ibm-plex-serif-regular);
             font-weight: 300;
+
+            &:hover {
+                color: rgb(245 233 196);
+                text-decoration: underline;
+            }
 
             &::marker {
                 font-size: 14px;

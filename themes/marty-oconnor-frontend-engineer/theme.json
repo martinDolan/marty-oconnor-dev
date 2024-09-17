@@ -112,6 +112,11 @@
 					"slug": "base-2"
 				},
 				{
+					"color": "#cfcfcd",
+					"name": "Base / Three",
+					"slug": "base-3"
+				},
+				{
 					"color": "#111111",
 					"name": "Contrast",
 					"slug": "contrast"
@@ -125,6 +130,11 @@
 					"color": "rgb(42 42 39)",
 					"name": "Contrast / Three",
 					"slug": "contrast-3"
+				},
+				{
+					"color": "#ff8c8c",
+					"name": "Error",
+					"slug": "error"
 				},
 				{
 					"color": "#cfcabe",

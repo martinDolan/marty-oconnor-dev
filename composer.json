@@ -15,7 +15,8 @@
   "require": {
     "wpackagist-plugin/custom-post-type-ui": "1.17.1",
     "wpackagist-plugin/fakerpress": "0.6.6",
-    "wpackagist-plugin/create-block-theme": "2.4.0"
+    "wpackagist-plugin/create-block-theme": "2.4.0",
+    "wpackagist-plugin/ninja-forms": "3.8.16"
   },
   "repositories": [
     {

@@ -1,0 +1,41 @@
+.contact-us-block {
+    background: var(--wp--preset--color--contrast-3);
+    font-family: var(--wp--preset--font-family--lato-light);
+
+    .label-above,
+    .nf-form-fields-required {
+        color: var(--wp--preset--color--base);
+        font-size: 1rem;
+    }
+
+    .nf-form-content label {
+        font-size: 1rem;
+    }
+
+    .ninja-forms-field{
+        &.nf-element[type="submit"] {
+            background-color: var(--wp--preset--color--base);
+            color: var(--wp--preset--color--contrast);
+        }
+    }
+
+    .nf-error-msg {
+        color: var(--wp--preset--color--error);
+    }
+
+    .nf-error{
+        .nf-error-msg {
+            color: var(--wp--preset--color--error);
+        }
+
+        &.field-wrap .nf-field-element:after {
+            background-color: var(--wp--preset--color--error);
+            color: var(--wp--preset--color--contrast);
+        }
+    }
+
+    .ninja-forms-req-symbol {
+        color: var(--wp--preset--color--error);
+    }
+
+}
