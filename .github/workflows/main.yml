@@ -28,7 +28,8 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
-        server: ftp.caj.ccy.mybluehost.me
+        server: ${{ secrets.ftp_server_url }}
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
         server-dir: /public_html/wp-content/
+        dry-run: true
