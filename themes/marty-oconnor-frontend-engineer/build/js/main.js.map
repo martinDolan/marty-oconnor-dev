@@ -1,1 +1,1 @@
-{"version":3,"file":"main.js","mappings":";;;;;AAAA;AACAA,OAAO,CAACC,GAAG,CAAC,4BAA4B,CAAC,C","sources":["webpack://queen-bees-child/./src/js/main.js"],"sourcesContent":["// src/main.js\nconsole.log('MO Frontend Engineer Theme');\n"],"names":["console","log"],"sourceRoot":""}
+{"version":3,"file":"main.js","mappings":";;;;;AAAA;AACAA,OAAO,CAACC,GAAG,CAAC,2CAA2C,CAAC,C","sources":["webpack://queen-bees-child/./src/js/main.js"],"sourcesContent":["// src/main.js\nconsole.log('Testing after changing deployment process');\n"],"names":["console","log"],"sourceRoot":""}
