@@ -1,2 +1,2 @@
 // src/main.js
-console.log('MO Frontend Engineer Theme');
+console.log('Testing after changing deployment process');
