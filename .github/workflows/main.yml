@@ -11,14 +11,17 @@ jobs:
     - name: 🚚 Get latest code
       uses: actions/checkout@v4
 
+    - name: 🕵️‍♂️ List current directory
+      run: ls -la
+
     - name: 🔧 Set up Node.js
       uses: actions/setup-node@v3
       with:
-        node-version: 'node'  # Equivalent to `nvm use node`
+        node-version: 'node'
 
     - name: 📦 Install dependencies and build
       run: |
-        cd /wp-content/themes/marty-oconnor-frontend-engineer
+        working-directory: wp-content/themes/marty-oconnor-frontend-engineer
         npm install
         npm run build
 
