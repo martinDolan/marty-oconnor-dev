@@ -21,7 +21,7 @@ jobs:
 
     - name: 📦 Install dependencies and build
       run: |
-        working-directory: themes/marty-oconnor-frontend-engineer
+        cd themes/marty-oconnor-frontend-engineer
         npm install
         npm run build
 
