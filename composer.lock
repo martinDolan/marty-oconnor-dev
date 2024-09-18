@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4b001672f2058c6371304a6e09e5372e",
+    "content-hash": "7629429fcdfc2b52a76930b155e9daca",
     "packages": [
         {
             "name": "composer/installers",
@@ -205,6 +205,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/fakerpress/"
+        },
+        {
+            "name": "wpackagist-plugin/highlighting-code-block",
+            "version": "2.0.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/highlighting-code-block/",
+                "reference": "tags/2.0.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/highlighting-code-block.2.0.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/highlighting-code-block/"
         },
         {
             "name": "wpackagist-plugin/ninja-forms",
