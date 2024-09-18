@@ -4,5 +4,5 @@ plugins/
 uploads/
 /themes/marty-oconnor-child-theme/node_modules/
 /themes/marty-oconnor-frontend-engineer/node_modules/
-/themes/marty-oconnor-frontend-engineer/build/*
+themes/marty-oconnor-frontend-engineer/build/
 /vendor/
