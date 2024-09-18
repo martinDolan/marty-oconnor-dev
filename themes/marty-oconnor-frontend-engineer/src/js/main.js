@@ -1,2 +1,2 @@
 // src/main.js
-console.log('Testing after changing deployment process setup');
+console.log('Testing after changing deployment process setup. additional test');
