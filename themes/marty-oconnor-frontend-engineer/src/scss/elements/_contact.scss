@@ -38,4 +38,16 @@
         color: var(--wp--preset--color--error);
     }
 
+    .nf-response-msg {
+        color: var(--wp--preset--color--base-3);
+
+        &:focus {
+            outline: none;
+        }
+
+        p {
+            margin: 0;
+        }
+    }
+
 }
