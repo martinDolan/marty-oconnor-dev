@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7629429fcdfc2b52a76930b155e9daca",
+    "content-hash": "298a72594ec316e3bd50f78748b6fec2",
     "packages": [
         {
             "name": "composer/installers",
@@ -154,15 +154,15 @@
         },
         {
             "name": "wpackagist-plugin/create-block-theme",
-            "version": "2.4.0",
+            "version": "2.6.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/create-block-theme/",
-                "reference": "tags/2.4.0"
+                "reference": "tags/2.6.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/create-block-theme.2.4.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/create-block-theme.2.6.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -172,15 +172,15 @@
         },
         {
             "name": "wpackagist-plugin/custom-post-type-ui",
-            "version": "1.17.1",
+            "version": "1.17.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/custom-post-type-ui/",
-                "reference": "tags/1.17.1"
+                "reference": "tags/1.17.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/custom-post-type-ui.1.17.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/custom-post-type-ui.1.17.2.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -226,15 +226,15 @@
         },
         {
             "name": "wpackagist-plugin/ninja-forms",
-            "version": "3.8.16",
+            "version": "3.8.23",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/ninja-forms/",
-                "reference": "tags/3.8.16"
+                "reference": "tags/3.8.23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ninja-forms.3.8.16.zip"
+                "url": "https://downloads.wordpress.org/plugin/ninja-forms.3.8.23.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
